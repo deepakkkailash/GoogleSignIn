@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+
+a:link,a:visited,a:hover,a:active,a{
+    color:#1a73e8;
+    display: inline;
+    text-decoration: none;
+    text-emphasis: none;
+    font-size: 80% !important;
+    font-weight: bolder !important;
+
+}
+#info_container{
+    position: absolute;
+    top:20vh;
+    left:25vw;
+    width: 40vw !important;
+ 
+
+}
+#Google_logo{
+    width:20%;
+}
+
+#Sign_in_prompt{
+    font-weight: 250;
+    font-size: 2vw;
+    font: "Comic Sans"
+}
+
+#Sign_in_paragraph{
+    word-wrap: break-word;
+    word-spacing: 2px;
+}
+
+#form_container{
+    position: absolute;
+    top:30vh;
+    left:3vw;
+
+}
+
+#input_container{
+    width:30vw;
+}
+
+#ipbox{
+    line-height: normal;
+    font-size: 20px;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+#ipbox:focus{
+    border-color:rgb(26,115,232);
+    border-width: 2px;
+
+}
+
+#ipbox:focus::placeholder{
+    color:transparent;
+}
+
+
+#Forgot_email:hover{
+    cursor: pointer;
+}
+#Guestmode_prompt{
+    color: #5f6368;
+    font-weight: 400;
+    word-spacing: normal;
+    line-height: normal;
+    font-size: 15px;
+
+}
+
+#Learn_more{
+    color:#1a73e8;
+    font-size: 80%;
+    font-weight: 700;
+}
+
+#Learn_more:hover{
+    cursor:pointer;
+}
+
+#Event_drivers{
+    position: absolute;
+    top:30vh;
+    left:-2vw;
+}
+
+#cracc_button{
+    border: none;
+    background-color: transparent;
+    color:#1a73e8;
+}
+
+#cracc_button:hover,#cracc_button:active{
+    opacity: 0.5;
+}
+
+#next_button{
+    border:none;
+    background-color: rgb(26,115,232);
+    color:#FFFFFF;
+    border-radius: 8px;
+
+}
+
+#next_button:hover{
+    background-color: #000080;
+}
+
+#Footer{
+    position: absolute;
+    top:95vh;
+    left:25vw;
+}
+
+#dropdown{
+    background-color: transparent;
+    border:none
+}
+
+#dropdown:hover{
+    border:1px black;
+    opacity:0.5;
+}
+
+#dropdown:active .List_of_languages{
+    display: block;
+}
